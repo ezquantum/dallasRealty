@@ -28,7 +28,7 @@ body {
     padding: 0 20px;
 }
 
-.flex {
+.flex, .flex-desktop {
     display: flex;
     justify-content: space-between;
 }
@@ -794,6 +794,10 @@ footer small a:hover {
         font-size: 0.8rem;
     }
 
+    .flex-desktop {
+        display: block;
+    }
+
     .container {
         max-width: 540px;
     }
@@ -1047,3 +1051,5 @@ $cols: 3;
 #logot-slider .slick-next {
     right: 0;
 }
+
+
